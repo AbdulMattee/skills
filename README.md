@@ -7,7 +7,13 @@ Designed to be **plug-and-play across any GitHub repo**. Repo, ticket prefix, pa
 ## Install
 
 ```bash
-npx skills add <your-github-username>/watch-pr
+npx skills add AbdulMattee/skills --skill watch-pr
+```
+
+Or, to browse every skill in the repo and pick interactively:
+
+```bash
+npx skills add AbdulMattee/skills
 ```
 
 That drops `SKILL.md` into your Claude Code skills directory. The skill is invoked when you ask Claude to "watch this PR", "babysit PR #N", or similar.
